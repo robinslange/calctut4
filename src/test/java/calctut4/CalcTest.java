@@ -2,8 +2,6 @@ package calctut4;
 
 import static org.junit.Assert.assertEquals;
 
-import org.junit.Test;
-
 import calctut4.Calc;
 
 public class CalcTest 
