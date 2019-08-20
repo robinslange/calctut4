@@ -21,5 +21,11 @@ public class CalcTest
         assertEquals(1, result);
     }
     
+    @org.junit.Test
+    public void mulitply() {
+        Calc newCalc = new Calc();
+        int result = newCalc.multiply(2, 3);
+        assertEquals(6, result);
+    }
     
 }
